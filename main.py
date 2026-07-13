@@ -1,3 +1,4 @@
+from transactions import transaction, save_transaction
 def main ():
 
     print('================================')
@@ -26,7 +27,13 @@ def main ():
 
         #user selects Add Income
         if menu_selection == 1:
-            print('Add Income feature coming soon')
+            description = input('Please enter the transaction description')
+            income_or_expense = input('Is your transaction an income or expense?')
+            amount = int(input('Please enter the total'))
+
+            t = transaction(description, income_or_expense, amount)
+
+            save_transaction(t)
 
         #user selects Add Expense
         elif menu_selection == 2:
