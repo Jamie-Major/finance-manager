@@ -26,15 +26,31 @@ def main ():
 
         #user selects Add Income / Expense
         if menu_selection == 1:
-            description = input('Please enter the transaction description')
-            income_or_expense = input('Is your transaction an income or expense?')
+            
+            description = input('Please enter the transaction description: ')
+
+            while True:
+                try:
+                    income_or_expense = input('Is your transaction an income or expense? ')
+                    if income_or_expense.lower() == 'expense':
+                        income_or_expense = 'expense'
+                        break
+                    elif income_or_expense.lower() == 'income':
+                        income_or_expense = 'income'
+                        break
+                    else:
+                        print('INVALID INPUT PLEASE ENTER CORRECTLY')
+
+                except ValueError:
+                    print('INVALID INPUT PLEASE ENTER CORRECTLY')
+
 
             while True:
                 try:
 
                     amount = float(input('Please enter the total: £'))
                     break
-                except:
+                except ValueError:
                     print('INVALID INPUT PLEASE ENTER CORRECTLY')
 
 
