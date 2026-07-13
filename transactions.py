@@ -9,8 +9,13 @@ class transaction:
         self.amount = amount
         self.date = datetime.now().strftime('%d/%m/%Y')
 
+    #turns a transaction object into a dictionary seperately so the amount is set to two decimal places (eg: 16.37)
     def transaction_dictionary(self):
-        return self.__dict__
+        dictionary_self ={'description': self.description,
+                          'income_or_expense': self.income_or_expense,
+                          'amount': f'{self.amount:.2f}',
+                          'date': self.date}
+        return dictionary_self
 
 def save_transaction(t):
 
