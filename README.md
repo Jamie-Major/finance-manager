@@ -15,3 +15,4 @@ added case sensesitivity for when a user enters income / expense so it is consis
 added a read_transaction file where everything that involves reading the JSON file can be written.
 
 so far the JSON file is read and presented in an appropriate manner for the user
+...
