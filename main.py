@@ -1,5 +1,8 @@
 from transactions import transaction, save_transaction
+from read_transactions import read_transaction_file
 def main ():
+
+    filename = 'transaction_history.json'
 
     print('================================')
     print('Welcome to your finance manager')
@@ -32,6 +35,7 @@ def main ():
             while True:
                 try:
                     income_or_expense = input('Is your transaction an income or expense? ')
+                    #the program accepts income / expense regardless of the case then changes it into all lower case so it is consistent within the JSON file
                     if income_or_expense.lower() == 'expense':
                         income_or_expense = 'expense'
                         break
@@ -60,7 +64,8 @@ def main ():
 
         #user selects View Transaction
         elif menu_selection == 2:
-            print('View Transaction feature coming soon')
+            read_transaction_file(filename)
+            press_enter = input('Press ENTER to continue')
 
         #user selects View Balance
         elif menu_selection == 3:
