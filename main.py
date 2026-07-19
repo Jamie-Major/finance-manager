@@ -1,5 +1,5 @@
 from transactions import transaction, save_transaction
-from read_transactions import read_transaction_file
+from read_transactions import read_transaction_file, get_total
 def main ():
 
     filename = 'transaction_history.json'
@@ -69,7 +69,7 @@ def main ():
 
         #user selects View Balance
         elif menu_selection == 3:
-            print('View Balance feature coming soon')
+            get_total(filename)
 
         #user selects Monthly Report
         elif menu_selection == 4:
