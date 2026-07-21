@@ -32,3 +32,23 @@ def get_total (file):
             return print(f'The total amount in your account is: £{total:.2f}')
     else:
         print('NO TRANSACTIONS HAVE BEEN RECORDED')
+
+def get_monthly_review (file):
+
+    if os.path.exists(file):
+        with open(file, 'r', encoding = 'utf-8') as f:
+            open_file = json.load(f)
+            month_date = input('Please enter the month and year you would like see (MM/YYYY): ')
+            month_list =[]
+            for x in open_file:
+                if x['date'][3:] == month_date:
+                    month_list.append(x)
+            if month_list == []:
+                print('THERE IS NO DATA FOR THE MONTH YOU HAVE SELECTED')
+            for y in month_list:
+                print(list(y)[0],':', y.get('description'))
+                print(list(y)[1],':', y.get('income_or_expense'))
+                print(list(y)[2],':', y.get('amount'))
+                print()
+    else:
+        print('NO TRANSACTIONS HAVE BEEN RECORDED')

@@ -1,0 +1,314 @@
+[
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2500.00",
+        "date": "21/07/2024"
+    },
+    {
+        "description": "groceries",
+        "income_or_expense": "expense",
+        "amount": "78.45",
+        "date": "25/07/2024"
+    },
+    {
+        "description": "freelance project",
+        "income_or_expense": "income",
+        "amount": "400.00",
+        "date": "02/08/2024"
+    },
+    {
+        "description": "electricity bill",
+        "income_or_expense": "expense",
+        "amount": "58.20",
+        "date": "15/08/2024"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2500.00",
+        "date": "30/08/2024"
+    },
+    {
+        "description": "restaurant",
+        "income_or_expense": "expense",
+        "amount": "45.90",
+        "date": "05/09/2024"
+    },
+    {
+        "description": "sale of old phone",
+        "income_or_expense": "income",
+        "amount": "280.00",
+        "date": "18/09/2024"
+    },
+    {
+        "description": "internet bill",
+        "income_or_expense": "expense",
+        "amount": "35.99",
+        "date": "28/09/2024"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2550.00",
+        "date": "10/10/2024"
+    },
+    {
+        "description": "fuel",
+        "income_or_expense": "expense",
+        "amount": "65.30",
+        "date": "22/10/2024"
+    },
+    {
+        "description": "bonus",
+        "income_or_expense": "income",
+        "amount": "500.00",
+        "date": "01/11/2024"
+    },
+    {
+        "description": "gym membership",
+        "income_or_expense": "expense",
+        "amount": "29.99",
+        "date": "12/11/2024"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2550.00",
+        "date": "25/11/2024"
+    },
+    {
+        "description": "movie tickets",
+        "income_or_expense": "expense",
+        "amount": "22.00",
+        "date": "03/12/2024"
+    },
+    {
+        "description": "freelance project",
+        "income_or_expense": "income",
+        "amount": "550.00",
+        "date": "14/12/2024"
+    },
+    {
+        "description": "water bill",
+        "income_or_expense": "expense",
+        "amount": "28.50",
+        "date": "22/12/2024"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2600.00",
+        "date": "05/01/2025"
+    },
+    {
+        "description": "clothing",
+        "income_or_expense": "expense",
+        "amount": "89.60",
+        "date": "18/01/2025"
+    },
+    {
+        "description": "tax refund",
+        "income_or_expense": "income",
+        "amount": "450.00",
+        "date": "30/01/2025"
+    },
+    {
+        "description": "groceries",
+        "income_or_expense": "expense",
+        "amount": "95.15",
+        "date": "11/02/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2600.00",
+        "date": "21/02/2025"
+    },
+    {
+        "description": "phone bill",
+        "income_or_expense": "expense",
+        "amount": "42.00",
+        "date": "03/03/2025"
+    },
+    {
+        "description": "gift received",
+        "income_or_expense": "income",
+        "amount": "150.00",
+        "date": "15/03/2025"
+    },
+    {
+        "description": "restaurant",
+        "income_or_expense": "expense",
+        "amount": "52.40",
+        "date": "28/03/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2650.00",
+        "date": "09/04/2025"
+    },
+    {
+        "description": "fuel",
+        "income_or_expense": "expense",
+        "amount": "70.10",
+        "date": "20/04/2025"
+    },
+    {
+        "description": "freelance project",
+        "income_or_expense": "income",
+        "amount": "620.00",
+        "date": "02/05/2025"
+    },
+    {
+        "description": "electricity bill",
+        "income_or_expense": "expense",
+        "amount": "61.80",
+        "date": "14/05/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2650.00",
+        "date": "26/05/2025"
+    },
+    {
+        "description": "groceries",
+        "income_or_expense": "expense",
+        "amount": "88.75",
+        "date": "07/06/2025"
+    },
+    {
+        "description": "bonus",
+        "income_or_expense": "income",
+        "amount": "700.00",
+        "date": "18/06/2025"
+    },
+    {
+        "description": "internet bill",
+        "income_or_expense": "expense",
+        "amount": "38.99",
+        "date": "29/06/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2700.00",
+        "date": "10/07/2025"
+    },
+    {
+        "description": "clothing",
+        "income_or_expense": "expense",
+        "amount": "110.20",
+        "date": "22/07/2025"
+    },
+    {
+        "description": "sale of old laptop",
+        "income_or_expense": "income",
+        "amount": "350.00",
+        "date": "03/08/2025"
+    },
+    {
+        "description": "restaurant",
+        "income_or_expense": "expense",
+        "amount": "48.60",
+        "date": "15/08/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2700.00",
+        "date": "27/08/2025"
+    },
+    {
+        "description": "fuel",
+        "income_or_expense": "expense",
+        "amount": "74.50",
+        "date": "08/09/2025"
+    },
+    {
+        "description": "freelance project",
+        "income_or_expense": "income",
+        "amount": "680.00",
+        "date": "20/09/2025"
+    },
+    {
+        "description": "water bill",
+        "income_or_expense": "expense",
+        "amount": "33.20",
+        "date": "02/10/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2750.00",
+        "date": "14/10/2025"
+    },
+    {
+        "description": "movie tickets",
+        "income_or_expense": "expense",
+        "amount": "26.00",
+        "date": "26/10/2025"
+    },
+    {
+        "description": "bonus",
+        "income_or_expense": "income",
+        "amount": "800.00",
+        "date": "07/11/2025"
+    },
+    {
+        "description": "groceries",
+        "income_or_expense": "expense",
+        "amount": "97.30",
+        "date": "19/11/2025"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2750.00",
+        "date": "01/12/2025"
+    },
+    {
+        "description": "phone bill",
+        "income_or_expense": "expense",
+        "amount": "45.00",
+        "date": "13/12/2025"
+    },
+    {
+        "description": "gift received",
+        "income_or_expense": "income",
+        "amount": "250.00",
+        "date": "24/12/2025"
+    },
+    {
+        "description": "restaurant",
+        "income_or_expense": "expense",
+        "amount": "60.80",
+        "date": "05/01/2026"
+    },
+    {
+        "description": "salary",
+        "income_or_expense": "income",
+        "amount": "2800.00",
+        "date": "17/01/2026"
+    },
+    {
+        "description": "fuel",
+        "income_or_expense": "expense",
+        "amount": "76.40",
+        "date": "29/01/2026"
+    },
+    {
+        "description": "freelance project",
+        "income_or_expense": "income",
+        "amount": "720.00",
+        "date": "10/02/2026"
+    },
+    {
+        "description": "electricity bill",
+        "income_or_expense": "expense",
+        "amount": "66.10",
+        "date": "22/02/2026"
+    }
+]
