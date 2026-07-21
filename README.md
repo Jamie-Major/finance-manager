@@ -16,3 +16,7 @@ added a read_transaction file where everything that involves reading the JSON fi
 
 so far the JSON file is read and presented in an appropriate manner for the user
 ...
+
+all original planned features are now completed and my next step is to write the README for this program.
+
+ChatGPT was used for this project to generate the entries used in the JSON file ONLY
